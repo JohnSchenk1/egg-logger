@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title> Egg Logger </title>
+</head>
+
+
+<body>
+
+<h1> Log the number of eggs collected </h1>
+
+<input
+type="Text" 
+id = "Stall-1" 
+placeholder = "Eggs collected from stall 1">
+
+
+<input
+type="Text" 
+id = "Stall-2" 
+placeholder = "Eggs collected from stall 2">
+
+<input
+type="Text" 
+id = "Stall-3" 
+placeholder = "Eggs collected from stall 3">
+
+
+<input
+type="Text" 
+id = "Stall-4" 
+placeholder = "Eggs collected from stall 4">
+
+<button type="button" id = "submit">submit</button>
+
+<label for="start">Todays Date:</label>
+
+<input type="date" id="start" name="trip-start">
+
+</body>
+
+
+<script>
+    submit = document.getElementById("submit");
+    submit.addEventListener("click", recordEggs);
+
+    function recordEggs(){
+        // collects the number of eggs submitted from webpage
+        info = {};
+        info["Stall-1"] = document.getElementById("Stall-1").value
+        
+        info["Stall-2"] = document.getElementById("Stall-2").value
+        
+        info["Stall-3"] = document.getElementById("Stall-3").value
+
+        info["Stall-4"] = document.getElementById("Stall-4").value
+        
+        console.log(info)
+    }
+</script>
+
+
+
+
+</html>
