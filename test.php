@@ -2,7 +2,7 @@
 
     echo " Hello " ;
     echo "<br>";
-    echo $_GET;
+    // echo $_GET;
     echo "<br>";
     print_r($_GET);
     echo "<br>";
