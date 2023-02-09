@@ -2,8 +2,6 @@
 
     echo " Hello " ;
     echo "<br>";
-    // echo $_GET;
-    echo "<br>";
     print_r($_GET);
     echo "<br>";
     echo "Hello" . $_GET["name"] . "<p>";
