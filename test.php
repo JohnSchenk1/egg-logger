@@ -3,7 +3,7 @@
     echo " Hello " ;
     echo $_Get;
     print_r($_Get);
-    echo "Hello" . $_Get["name"]. "<p>";
+    echo "Hello" . $_Get["name"] . "<p>";
 
     echo '<input type=button value="submit">';
 
