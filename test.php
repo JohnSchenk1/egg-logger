@@ -4,7 +4,7 @@
     echo "<br>";
     echo $_GET;
     print_r($_GET);
-    echo "<br>"
+    echo "<br>";
     echo "Hello" . $_GET["name"] . "<p>";
     echo "<br>";
 
