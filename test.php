@@ -5,6 +5,7 @@
     echo $_GET;
     print_r($_GET);
     echo "Hello" . $_GET["name"] . "<p>";
+    echo "<br>";
 
     echo '<input type=button value="submit">';
 
