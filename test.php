@@ -1,7 +1,7 @@
 <?php
 
     echo " Hello " ;
-    echo "<br>"
+    echo "<br>";
     echo $_GET;
     print_r($_GET);
     echo "Hello" . $_GET["name"] . "<p>";
