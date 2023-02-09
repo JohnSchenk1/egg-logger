@@ -3,9 +3,7 @@
     echo " Hello " ;
     echo "<br>";
     print_r($_GET);
-    echo "<br>";
     echo "Hello" . $_GET["name"] . "<p>";
-    echo "<br>";
 
     echo '<input type=button value="submit">';
 
