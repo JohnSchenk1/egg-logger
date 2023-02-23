@@ -65,6 +65,7 @@ placeholder = "Eggs collected from stall 4">
 
         info["Stall-4"] = document.getElementById("Stall-4").value
 
+        
     
     // sending data to the server
     xR = new XMLHttpRequest();
@@ -75,6 +76,7 @@ placeholder = "Eggs collected from stall 4">
             
         }
     }
+    console.log(info)
     xR.open("post", "Egg-Logger.php", true);
     xR.send(JSON.stringify(info));
         
