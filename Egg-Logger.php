@@ -5,7 +5,7 @@ $Json = file_get_contents("php://input");
 
 // converts it into a php object
 
-$data = json_decode($Json);
+$data = json_encode($Json);
 
 // echos the data back to make sure the data is sent
 
