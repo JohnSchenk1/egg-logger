@@ -1,4 +1,4 @@
-<?<php>
+<?php
 
 // Get Post Data (Json)
 $Json = file_get_contents("php://input");
@@ -14,4 +14,4 @@ echo json_encode($data);
 
 
 
-</php>
+?>
