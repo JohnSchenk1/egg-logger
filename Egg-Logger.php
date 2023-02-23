@@ -5,11 +5,11 @@ $Json = file_get_contents("php://input");
 
 // converts it into a php object
 
-$data = json_encode($Json);
+$info = json_encode($Json);
 
 // echos the data back to make sure the data is sent
 
-echo json_encode($data);
+echo json_encode($info);
 
 
 
