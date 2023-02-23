@@ -11,8 +11,6 @@ $info = json_encode($Json);
 
  echo json_encode($info);
 
-echo 'hi john'; 
-
 
 
 
