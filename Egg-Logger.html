@@ -79,7 +79,7 @@ placeholder = "Eggs collected from stall 4">
         }
     }
     console.log(info)
-    xR.open("post", "Egg-Logger.php", true);
+    xR.open("POST", "Egg-Logger.php", true);
     xR.send(JSON.stringify(info));
         
     }
