@@ -8,7 +8,7 @@ $Json = file_get_contents("php://input");
 $info = json_encode($Json);
 
 
-$f = fopen("Eggs.json", "w");
+$f = fopen("Eggs.json", "a");
     fwrite($f, "This is a file. \n");
     fwrite($f, json_decode($Json) . "\n" );
 
