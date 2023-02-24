@@ -10,7 +10,7 @@ $info = json_encode($Json);
 
 $f = fopen("Eggs.json", "w");
     fwrite($f, "This is a file. \n");
-    fwrite($f, json_enconde($Json) . "\n" );
+    fwrite($f, json_decode($Json) . "\n" );
 
 // // echos the data back to make sure the data is sent
 
