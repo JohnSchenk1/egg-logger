@@ -69,7 +69,8 @@ placeholder = "Eggs collected from stall 4">
     
     // sending data to the server
     xR = new XMLHttpRequest();
-    xR.onreadystatechange = function() {
+    xR.onreadystatechange = function()
+     { console.log(hi)
         if (this.readystate == 4 && this.status == 200) {
              // 4 means the request is finished and the response is ready
              // 200 means that the request is ok
