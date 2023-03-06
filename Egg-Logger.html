@@ -85,6 +85,31 @@ placeholder = "Eggs collected from stall 4">
         
     }
 
+// This is the code for the chart (Chart JS)
+
+new Chart("myChart", {
+          type: "line",
+          data:{
+            labels: xValues,
+            datasets: [{
+              fill: false,
+              lineTension: 0,
+              backgroundColor: "rgba(0,0,255,1.0)",
+              borderColor: "rgba(0,0,255,0.1)",
+              data: yValues
+            }]
+          },
+          options: {
+            animation: {
+              duration:0
+              },
+            legend: {display: false},
+            scales: {
+              xAxes: [{ticks: {min: 500, max:1500}}],
+              yAxes: [{ticks: {min: 600, max:1000}}],
+            }
+          }
+    });
 </script>
 
 
